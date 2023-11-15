@@ -1,28 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charSet="utf-8" />
-    <link rel="preload" as="font" href="/src/media/2aaf0723e720e8b9-s.p.woff2" crossorigin="" type="font/woff2" />
-    <link rel="preload" as="font" href="/src/media/90475aac776488b6-s.p.woff2" crossorigin="" type="font/woff2" />
-    <link rel="stylesheet" href="/src/css/fe9f8ebb655ca26f.css" data-precedence="next" />
-    <script async="" defer="" data-website-id="1f3acb4e-518d-4043-919c-cdcc62d557dd"
-        src="https://find-coder-analytics.vercel.app/umami.js"></script>
-    <title>Flutter Bee - Join Us</title>
-    <meta name="description" content="A Flutter Component Tools." />
-    <meta name="keywords" content="Flutter,Dart, Components" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta property="og:title" content="FlutterBee" />
-    <meta property="og:description" content="A Flutter Component Tools." />
-    <meta property="og:site_name" content="FlutterBee" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:type" content="website" />
-    <!-- <link rel="shortcut icon" href="/images/favicon-16x16.png"/> -->
-    <!-- <link rel="icon" href="/images/favicon.ico"/> -->
-    <!-- <link rel="apple-touch-icon" href="/images/apple-touch-icon.png"/> -->
-    <meta name="next-size-adjust" />
-    <script src="/src/chunks/polyfills-c67a75d1b6f99dc8.js" noModule=""></script>
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charSet="utf-8" />
+  <link rel="preload" as="font" href="<?php echo base_url('Assets/src/media/2aaf0723e720e8b9-s.p.woff2') ?>" crossorigin="" type="font/woff2" />
+  <link rel="preload" as="font" href="<?php echo base_url('Assets/src/media/90475aac776488b6-s.p.woff2') ?>" crossorigin="" type="font/woff2" />
+  
+  <link rel="stylesheet" href="<?php echo base_url('Assets/src/css/fe9f8ebb655ca26f.css')?>" data-precedence="next" />
+  <script async="" defer="" data-website-id="1f3acb4e-518d-4043-919c-cdcc62d557dd"
+    src="https://find-coder-analytics.vercel.app/umami.js"></script>
+  <title>Flutter Bee</title>
+  <meta name="description" content="A Flutter Component Tools." />
+  <meta name="keywords" content="Flutter,Dart, Components" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta property="og:title" content="FlutterBee" />
+  <meta property="og:description" content="A Flutter Component Tools." />
+  <meta property="og:site_name" content="FlutterBee" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta name="next-size-adjust" />
+  <script src="<?php echo base_url('Assets/src/chunks/polyfills-c67a75d1b6f99dc8.js') ?>" noModule=""></script>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body class="min-h-screen bg-white font-sans antialiased __variable_0ec1f4 __variable_deb966">
@@ -118,18 +115,8 @@
                     </div>
                 </div>
             </div>
-            <hr class="mt-6" />
-            <div class="mx-auto max-w-7xl">
-                <footer class="px-4 py-4 flex flex-col items-center">
-                    <div class="flex flex-col md:flex-row md:items-center"><img src="/assets/svg/hero.svg" alt="logo"
-                            class="h-auto w-10">
-                        <div class="mt-2 grow md:ml-4 md:mt-0">
-                            <p cl   ass="text-base font-semibold text-gray-700">Built with ❤️ by developers for developers
-                            </p>
-                        </div>
-                    </div>
-                </footer>
-            </div>
+            <?php $this->load->view('Assets/footer.php');?>
+
         </div>
 
 
