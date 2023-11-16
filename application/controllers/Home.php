@@ -79,26 +79,32 @@ class Home extends CI_Controller {
 
 		$adddata['uiComponents'] = [	
 			array(
-				'title' => "CupertinoAppBar",
-				'chunk' => "8bc9d9989b0e1798e674f0615e72e2d6",
-				'gif' => "gif/cupertino_date_select.gif",
-				'image' => "banner/cupertinoDate.png",
+				'title' => "TextFormField",
+				'chunk' => "509e50861c30c33d98ec07d93e9dc69a",
+				'gif' => "gif/textfield.gif",
+				'image' => "banner/textfield.png",
 			),
 			array(
-				'title' => "SampleAppBar",
-				'chunk' => "8bc9d9989b0e1798e674f0615e72e2d6",
-				'gif' => "gif/cupertino_date_select.gif",
-				'image' => "banner/cupertinoDate.png",
+				'title' => "DropDown Field",
+				'chunk' => "e6d57174ca42b328af64fa858aa32d0a",
+				'gif' => "gif/dropDown.gif",
+				'image' => "banner/dropDownField.png",
 			),
 			array(
-				'title' => "flutternoAppBar",
-				'chunk' => "8bc9d9989b0e1798e674f0615e72e2d6",
-				'gif' => "gif/cupertino_date_select.gif",
-				'image' => "banner/cupertinoDate.png",
+				'title' => "Radio Button",
+				'chunk' => "f7e3c84ad1a33c782ded4b33a61907d7",
+				'gif' => "gif/radioButton.gif",
+				'image' => "banner/radioButton.png",
+			),
+			array(
+				'title' => "Multi Select Button",
+				'chunk' => "14f5f46a6f563f90375574edbbcb6c12",
+				'gif' => "gif/multiSelect.gif",
+				'image' => "banner/multiSelect.png",
 			)
 		];
 
-		$adddata['cards'] = [	
+		$adddata['cards'] = [
 			array(
 				'title' => "Grid View",
 				'chunk' => "dba637f2029050b9ac358e013471c17c",
