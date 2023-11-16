@@ -32,7 +32,6 @@
     <div class="flex flex-col min-h-screen">
       <main class="flex-1">
         <div class>
-          <?php echo $first_name ?>
           <div class="mx-auto mt-16 max-w-7xl px-2"><img src="<?php echo base_url('Assets/assets/svg/hero.svg')?>" alt="logo"
               class="h-auto w-96 pt-12  md:pt-24">
             <div class="flex flex-col space-y-8">

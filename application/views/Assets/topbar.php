@@ -2,8 +2,8 @@
       <div class="flex h-20 items-center justify-between py-6">
         <div class="flex gap-6 md:gap-10">
           <a class="hidden items-center space-x-2 md:flex" href="<?php echo base_url('Home/index') ?>">
-            <div class="inline-flex items-center space-x-2" style="cursor: pointer;"><img src="<?php echo base_url('Assets/assets/svg/hero.svg')?>"
-                alt="logo" class="h-auto w-10">
+            <div class="inline-flex items-center space-x-2" style="cursor: pointer;"><img src="<?php echo base_url('Assets/assets/logo.jpg  ')?>"
+                alt="logo" class="h-auto w-20">
               <span class="font-bold">FlutterBee</span>
             </div>
           </a>
@@ -29,8 +29,8 @@
             class="animate-in slide-in-from-bottom-80 fixed inset-0 top-16 z-50 grid h-[calc(100vh-4rem)] grid-flow-row auto-rows-max overflow-auto p-6 pb-32 shadow-md md:hidden">
             <div class="text-popover-foreground relative z-20 grid gap-6 rounded-md bg-white p-4 shadow-md">
               <a class="flex items-center space-x-2" href="<?php echo base_url('Home') ?>">
-              <div class="inline-flex items-center space-x-2" style="cursor: pointer;"><img src="<?php echo base_url('Assets/assets/svg/hero.svg')?>"
-                alt="logo" class="h-auto w-10">
+              <div class="inline-flex items-center space-x-2" style="cursor: pointer;"><img src="<?php echo base_url('Assets/assets/logo.jpg')?>"
+                alt="logo" class="h-auto w-20">
               <span class="font-bold">FlutterBee</span>
             </div></a>
               <nav class="grid grid-flow-row auto-rows-max text-sm"><a

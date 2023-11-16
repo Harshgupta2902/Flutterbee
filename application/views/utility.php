@@ -45,25 +45,26 @@
                     </div>
                     <div class="mt-10 w-full lg:mt-0 lg:w-[70%]">
                         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-x-4 lg:gap-y-4">
-
-                        <?php foreach ($appBar as $appBar): ?>
-                            <div class="rounded-md p-2 hover:bg-gray-100/50">
-                                <?php $dataToSend = array('title' => $appBar['title'], 'gif' => $appBar['gif'], 'chunk' => $appBar['chunk']); ?>
-                                <a href="<?php echo base_url('Home/components?data='. urlencode(json_encode($dataToSend)))?>">
-                                    <div class="rounded-t-md border border-gray-200 bg-white">
-                                        <img alt="Avatar" loading="lazy" width="150" height="80" decodin   g="async"
-                                            data-nimg="1" class="w-full rounded-md object-cover"
-                                            style="color:transparent"
-                                            src="http://ixorainfotech.in/Foodonation/uploads/assets/<?php echo $appBar['image']?>" />
-                                        <hr />
-                                        <p class="mt-2 p-2 pt-0 text-sm font-semibold text-gray-600"><?php echo $appBar['title'] ?>
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                        <?php endforeach; ?>
+                            <?php foreach ($appBar as $appBarItem): ?>
+                                <div class="rounded-md p-2 hover:bg-gray-100/50">
+                                    <?php $dataToSend = array('title' => $appBarItem['title'], 'gif' => $appBarItem['gif'], 'chunk' => $appBarItem['chunk']); ?>
+                                    <a href="<?php echo base_url('Home/components?data='. urlencode(json_encode($dataToSend)))?>">
+                                        <div class="rounded-t-md border border-gray-200 bg-white flex flex-col" style="height: 300px;">
+                                            <div class="flex-grow flex items-center justify-center">
+                                                <img alt="Avatar" loading="lazy" width="150" height="80" decoding="async"
+                                                    data-nimg="1" class="w-full rounded-md object-cover"
+                                                    style="color: transparent;"
+                                                    src="http://ixorainfotech.in/Foodonation/uploads/assets/<?php echo $appBarItem['image']?>" />
+                                            </div>
+                                            <hr />
+                                            <p class="mt-2 p-2 pt-0 text-sm font-semibold text-gray-600"><?php echo $appBarItem['title'] ?></p>
+                                        </div>
+                                    </a>
+                                </div>
+                            <?php endforeach; ?>
                         </div>
                     </div>
+
                 </div>
                 <hr class="h-[2px] w-full bg-black" />
                 <!-- ------------------------------------------------------------UI------------------------------------------------------------ -->
@@ -79,24 +80,26 @@
                     </div>
                     <div class="mt-10 w-full lg:mt-0 lg:w-[70%]">
                         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-x-4 lg:gap-y-4">
-                        <?php foreach ($uiComponents as $uiComponents): ?>
-                            <div class="rounded-md p-2 hover:bg-gray-100/50">
-                                <?php $dataToSend = array('title' => $uiComponents['title'], 'gif' => $uiComponents['gif'], 'chunk' => $uiComponents['chunk']); ?>
-                                <a href="<?php echo base_url('Home/components?data='. urlencode(json_encode($dataToSend)))?>">
-                                    <div class="rounded-t-md border border-gray-200 bg-white">
-                                        <img alt="Avatar" loading="lazy" width="150" height="80" decodin   g="async"
-                                            data-nimg="1" class="w-full rounded-md object-cover"
-                                            style="color:transparent"
-                                            src="http://ixorainfotech.in/Foodonation/uploads/assets/<?php echo $uiComponents['image']?>" />
-                                        <hr />
-                                        <p class="mt-2 p-2 pt-0 text-sm font-semibold text-gray-600"><?php echo $uiComponents['title'] ?>
-                                        </p>
-                                    </div>
-                                </a>
-                            </div>
-                        <?php endforeach; ?>
+                            <?php foreach ($uiComponents as $uiComponent): ?>
+                                <div class="rounded-md p-2 hover:bg-gray-100/50">
+                                    <?php $dataToSend = array('title' => $uiComponent['title'], 'gif' => $uiComponent['gif'], 'chunk' => $uiComponent['chunk']); ?>
+                                    <a href="<?php echo base_url('Home/components?data='. urlencode(json_encode($dataToSend)))?>">
+                                        <div class="rounded-t-md border border-gray-200 bg-white flex flex-col" style="height: 300px;">
+                                            <div class="flex-grow flex items-center justify-center">
+                                                <img alt="Avatar" loading="lazy" width="150" height="80" decoding="async"
+                                                    data-nimg="1" class="w-full rounded-md object-cover"
+                                                    style="color: transparent;"
+                                                    src="http://ixorainfotech.in/Foodonation/uploads/assets/<?php echo $uiComponent['image']?>" />
+                                            </div>
+                                            <hr />
+                                            <p class="mt-2 p-2 pt-0 text-sm font-semibold text-gray-600"><?php echo $uiComponent['title'] ?></p>
+                                        </div>
+                                    </a>
+                                </div>
+                            <?php endforeach; ?>
                         </div>
                     </div>
+
                 </div>
                 <hr class="h-[2px] w-full bg-black" />
                 <!-- ------------------------------------------------------------Cards------------------------------------------------------------ -->
@@ -111,24 +114,26 @@
                     </div>
                     <div class="mt-10 w-full lg:mt-0 lg:w-[70%]">
                         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-x-4 lg:gap-y-4">
-                        <?php foreach ($cards as $cards): ?>
-                            <div class="rounded-md p-2 hover:bg-gray-100/50">
-                                <?php $dataToSend = array('title' => $cards['title'], 'gif' => $cards['gif'], 'chunk' => $cards['chunk']); ?>
-                                <a href="<?php echo base_url('Home/components?data='. urlencode(json_encode($dataToSend)))?>">
-                                    <div class="rounded-t-md border border-gray-200 bg-white">
-                                        <img alt="Avatar" loading="lazy" width="150" height="80" decodin   g="async"
-                                            data-nimg="1" class="w-full rounded-md object-cover"
-                                            style="color:transparent"
-                                            src="http://ixorainfotech.in/Foodonation/uploads/assets/<?php echo $cards['image']?>" />
-                                        <hr />
-                                        <p class="mt-2 p-2 pt-0 text-sm font-semibold text-gray-600"><?php echo $cards['title'] ?>
-                                        </p>    
-                                    </div>
-                                </a>
-                            </div>
-                        <?php endforeach; ?>
+                            <?php foreach ($cards as $card): ?>
+                                <div class="rounded-md p-2 hover:bg-gray-100/50">
+                                    <?php $dataToSend = array('title' => $card['title'], 'gif' => $card['gif'], 'chunk' => $card['chunk']); ?>
+                                    <a href="<?php echo base_url('Home/components?data='. urlencode(json_encode($dataToSend)))?>">
+                                        <div class="rounded-t-md border border-gray-200 bg-white flex flex-col" style="height: 300px;">
+                                            <div class="flex-grow flex items-center justify-center">
+                                                <img alt="Avatar" loading="lazy" width="150" height="80" decoding="async"
+                                                    data-nimg="1" class="w-full rounded-md object-cover"
+                                                    style="color: transparent;"
+                                                    src="http://ixorainfotech.in/Foodonation/uploads/assets/<?php echo $card['image']?>" />
+                                            </div>
+                                            <hr />
+                                            <p class="mt-2 p-2 pt-0 text-sm font-semibold text-gray-600"><?php echo $card['title'] ?></p>
+                                        </div>
+                                    </a>
+                                </div>
+                            <?php endforeach; ?>
                         </div>
                     </div>
+
                 </div>
             </div>
         </main>

@@ -26,16 +26,14 @@
 <body class="min-h-screen bg-white font-sans antialiased __variable_0ec1f4 __variable_deb966">
     <div class="flex min-h-screen flex-col">
         <!-- ------------------------------------------------------------HEADER------------------------------------------------------------ -->
-        <?php $this->load->view('Assets/topbar.php');?>
+        <?php $this->load->view('Assets/topbar.php');?> 
 
 
         <!-- ------------------------------------------------------------MAIN------------------------------------------------------------ -->
 
         <main class="flex-1">
                 <div class="mx-auto max-w-7xl px-3 py-8 md:py-12 lg:px-0 lg:py-14">
-              
-
-                    <div class="flex flex-col justify-between md:flex-row md:items-center">
+              <div class="flex flex-col justify-between md:flex-row md:items-center">
                     <h3 class="pb-4 font-heading text-2xl font-bold"><?php echo $userData['title']; ?></h3>
                       <div class="flex items-center space-x-4">
                           <div class="">
@@ -70,11 +68,18 @@
                           </div>
                       </div>
                   </div>
-                  <hr style="margin-bottom: 100px;"/>
+                  <!-- <hr style="margin-bottom: 100px;"/> -->
                   <?php if (isset($userData)): ?>
                         <div id="previewContent">
+                        <div class="mx-auto max-w-7xl">
+                                    <div class="mt-4 min-h-min w-full rounded-md border md:px-4 flex items-center justify-center space-x-2 py-10">
+                                        <div class="flex flex-col space-y-2 md:flex-row md:space-x-2 md:space-y-0">
+                                        <img src="https://tinyurl.com/myAsseter/<?php echo $userData['gif'] ?>" alt="cupertino">
+  
+                                        </div>
+                                    </div>
+                                </div>
                             <!-- Display image or content you want for preview -->
-                            <img src="https://tinyurl.com/myAsseter/<?php echo $userData['gif'] ?>" alt="cupertino">
                         </div>
                         <div id="codeContent" style="display: none;">
                             <!-- Display code content initially hidden -->
