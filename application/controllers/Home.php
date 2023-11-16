@@ -58,10 +58,10 @@ class Home extends CI_Controller {
 	{
 		$adddata['appBar'] = [	
 			array(
-				'title' => "CupertinoAppBar",
-				'chunk' => "8bc9d9989b0e1798e674f0615e72e2d6",
-				'gif' => "gif/cupertino_date_select.gif",
-				'image' => "banner/cupertinoDate.png",
+				'title' => "SliverAppBar",
+				'chunk' => "fa533ffa669b233d43c41c85457c19c7",
+				'gif' => "gif/sliverAppBar.gif",
+				'image' => "banner/sliverAppBar.png",
 			),
 			array(
 				'title' => "SampleAppBar",
@@ -100,10 +100,10 @@ class Home extends CI_Controller {
 
 		$adddata['cards'] = [	
 			array(
-				'title' => "CupertinoAppBar",
-				'chunk' => "8bc9d9989b0e1798e674f0615e72e2d6",
-				'gif' => "gif/cupertino_date_select.gif",
-				'image' => "banner/cupertinoDate.png",
+				'title' => "Grid View",
+				'chunk' => "dba637f2029050b9ac358e013471c17c",
+				'gif' => "banner/GridView.png",	
+				'image' => "banner/GridView.png",
 			),
 			array(
 				'title' => "SampleAppBar",

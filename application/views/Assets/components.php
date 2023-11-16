@@ -81,8 +81,7 @@
                             <script src="https://tinyurl.com/myGistss/<?php echo $userData['chunk']; ?>.js"></script>
                         </div>
                     <?php endif; ?>
-                    gif/cupertino_date_select.gif
-                </div>
+                  </div>
             </main>
 
            <!-- ------------------------------------------------------------FOOTER------------------------------------------------------------ -->
