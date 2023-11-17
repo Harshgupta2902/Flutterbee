@@ -48,13 +48,13 @@
                             <?php foreach ($appBar as $appBarItem): ?>
                                 <div class="rounded-md p-2 hover:bg-gray-100/50">
                                     <?php $dataToSend = array('title' => $appBarItem['title'], 'gif' => $appBarItem['gif'], 'chunk' => $appBarItem['chunk']); ?>
-                                    <a href="<?php echo base_url('Home/components?data='. urlencode(json_encode($dataToSend)))?>">
+                                    <a href="<?php echo base_url('components?data='. urlencode(json_encode($dataToSend)))?>">
                                         <div class="rounded-t-md border border-gray-200 bg-white flex flex-col" style="height: 300px;">
                                             <div class="flex-grow flex items-center justify-center">
                                                 <img alt="Avatar" loading="lazy" width="150" height="80" decoding="async"
                                                     data-nimg="1" class="w-full rounded-md object-cover"
                                                     style="color: transparent;"
-                                                    src="http://ixorainfotech.in/Foodonation/uploads/assets/<?php echo $appBarItem['image']?>" />
+                                                    src="uploads/<?php echo $appBarItem['image']?>" />
                                             </div>
                                             <hr />
                                             <p class="mt-2 p-2 pt-0 text-sm font-semibold text-gray-600"><?php echo $appBarItem['title'] ?></p>
@@ -83,13 +83,13 @@
                             <?php foreach ($uiComponents as $uiComponent): ?>
                                 <div class="rounded-md p-2 hover:bg-gray-100/50">
                                     <?php $dataToSend = array('title' => $uiComponent['title'], 'gif' => $uiComponent['gif'], 'chunk' => $uiComponent['chunk']); ?>
-                                    <a href="<?php echo base_url('Home/components?data='. urlencode(json_encode($dataToSend)))?>">
+                                    <a href="<?php echo base_url('components?data='. urlencode(json_encode($dataToSend)))?>">
                                         <div class="rounded-t-md border border-gray-200 bg-white flex flex-col" style="height: 300px;">
                                             <div class="flex-grow flex items-center justify-center">
                                                 <img alt="Avatar" loading="lazy" width="150" height="80" decoding="async"
                                                     data-nimg="1" class="w-full rounded-md object-cover"
                                                     style="color: transparent;"
-                                                    src="http://ixorainfotech.in/Foodonation/uploads/assets/<?php echo $uiComponent['image']?>" />
+                                                    src="uploads/<?php echo $uiComponent['image']?>" />
                                             </div>
                                             <hr />
                                             <p class="mt-2 p-2 pt-0 text-sm font-semibold text-gray-600"><?php echo $uiComponent['title'] ?></p>
@@ -117,13 +117,13 @@
                             <?php foreach ($cards as $card): ?>
                                 <div class="rounded-md p-2 hover:bg-gray-100/50">
                                     <?php $dataToSend = array('title' => $card['title'], 'gif' => $card['gif'], 'chunk' => $card['chunk']); ?>
-                                    <a href="<?php echo base_url('Home/components?data='. urlencode(json_encode($dataToSend)))?>">
+                                    <a href="<?php echo base_url('components?data='. urlencode(json_encode($dataToSend)))?>">
                                         <div class="rounded-t-md border border-gray-200 bg-white flex flex-col" style="height: 300px;">
                                             <div class="flex-grow flex items-center justify-center">
                                                 <img alt="Avatar" loading="lazy" width="150" height="80" decoding="async"
                                                     data-nimg="1" class="w-full rounded-md object-cover"
                                                     style="color: transparent;"
-                                                    src="http://ixorainfotech.in/Foodonation/uploads/assets/<?php echo $card['image']?>" />
+                                                    src="uploads/<?php echo $card['image']?>" />
                                             </div>
                                             <hr />
                                             <p class="mt-2 p-2 pt-0 text-sm font-semibold text-gray-600"><?php echo $card['title'] ?></p>

@@ -19,7 +19,6 @@
   <meta property="og:locale" content="en_US" />
   <meta property="og:type" content="website" />
   <meta name="next-size-adjust" />
-  <script src="<?php echo base_url('Assets/src/chunks/polyfills-c67a75d1b6f99dc8.js') ?>" noModule=""></script>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
@@ -74,7 +73,7 @@
                         <div class="mx-auto max-w-7xl">
                                     <div class="mt-4 min-h-min w-full rounded-md border md:px-4 flex items-center justify-center space-x-2 py-10">
                                         <div class="flex flex-col space-y-2 md:flex-row md:space-x-2 md:space-y-0">
-                                        <img src="https://tinyurl.com/myAsseter/<?php echo $userData['gif'] ?>" alt="cupertino">
+                                        <img class="max-w-xs transition duration-300 ease-in-out hover:scale-110" src="/uploads/<?php echo $userData['gif'] ?>" alt="cupertino">
   
                                         </div>
                                     </div>

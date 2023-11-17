@@ -21,6 +21,7 @@
   <meta name="next-size-adjust" />
   <script src="<?php echo base_url('Assets/src/chunks/polyfills-c67a75d1b6f99dc8.js') ?>" noModule=""></script>
   <script src="https://cdn.tailwindcss.com"></script>
+  
 </head>
 
 <body class="min-h-screen bg-white font-sans antialiased __variable_0ec1f4 __variable_deb966">
@@ -40,9 +41,14 @@
               <p class="max-w-4xl text-base text-gray-600 md:text-xl">Unleashing Creativity, One Ready-to-Use &
                 Re-designable
                 Component at a Time, in the World of Flutter Development.</p>
-            </div><button type="button"
+            </div>
+            <a href="<?php echo base_url('Home/utility') ?>">
+               <button type="button" 
               class="mt-4 mb-8 rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">view
-              components</button>
+              components
+            </button>
+            </a>
+           
             <hr class="w-full bg-black">
           </div>
 
