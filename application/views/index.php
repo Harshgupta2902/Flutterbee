@@ -5,7 +5,7 @@
   <meta charSet="utf-8" />
   <link rel="preload" as="font" href="<?php echo base_url('Assets/src/media/2aaf0723e720e8b9-s.p.woff2') ?>" crossorigin="" type="font/woff2" />
   <link rel="preload" as="font" href="<?php echo base_url('Assets/src/media/90475aac776488b6-s.p.woff2') ?>" crossorigin="" type="font/woff2" />
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link rel="stylesheet" href="<?php echo base_url('Assets/src/css/fe9f8ebb655ca26f.css')?>" data-precedence="next" />
   <script async="" defer="" data-website-id="1f3acb4e-518d-4043-919c-cdcc62d557dd"
     src="https://find-coder-analytics.vercel.app/umami.js"></script>
@@ -36,16 +36,14 @@
           <div class="mx-auto mt-16 max-w-7xl px-2"><img src="<?php echo base_url('Assets/assets/svg/hero.svg')?>" alt="logo"
               class="h-auto w-96 pt-12  md:pt-24">
             <div class="flex flex-col space-y-8">
-              <p class="text-3xl font-bold text-gray-900 md:text-5xl md:leading-10">Build Apps using FlutterBee
-                Components</p>
-              <p class="max-w-4xl text-base text-gray-600 md:text-xl">Unleashing Creativity, One Ready-to-Use &
-                Re-designable
+              <p class="text-3xl font-bold text-gray-900 md:text-5xl md:leading-10 animate__animated animate__backInLeft">Build Apps using FlutterBee Components</p>
+              <p class="max-w-4xl text-base text-gray-600 md:text-xl">Unleashing Creativity, One Ready-to-Use & Re-designable
                 Component at a Time, in the World of Flutter Development.</p>
             </div>
-            <a href="<?php echo base_url('Home/utility') ?>">
+            <a href="<?php echo base_url('utility') ?>">
                <button type="button" 
-              class="mt-4 mb-8 rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">view
-              components
+              class="mt-4 mb-8 rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">View
+              Components
             </button>
             </a>
            
@@ -54,13 +52,12 @@
 
           <!-- ------------------------------------------------------------FEATURES------------------------------------------------------------ -->
 
-
           <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 mt-12 ">
             <div class="mx-auto max-w-xl text-center">
               <h2 class="mt-6 text-3xl font-bold leading-tight text-black sm:text-4xl lg:text-5xl">Features</h2>
             </div>
             <div class="mt-12 grid grid-cols-1 gap-y-8 text-center sm:grid-cols-2 sm:gap-12 lg:grid-cols-3">
-              <div class="block max-w-sm p-6 bg-white border border-white-200 rounded-lg shadow ">
+              <div class="block max-w-sm p-6 bg-white border border-white-200 rounded-lg shadow transition-all duration-700 hover:scale-110 ">
                 <div>
                   <div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-gray-100"><svg
                       xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -74,7 +71,7 @@
                     your app..</p>
                 </div>
               </div>
-              <div class="block max-w-sm p-6 bg-white border border-white-200 rounded-lg shadow ">
+              <div class="block max-w-sm p-6 bg-white border border-white-200 rounded-lg shadow transition-all duration-700 hover:scale-110">
                 <div>
                   <div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-gray-100"><svg
                       xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -88,7 +85,7 @@
                     FlutterBee components built in.</p>
                 </div>
               </div>
-              <div class="block max-w-sm p-6 bg-white border border-white-200 rounded-lg shadow ">
+              <div class="block max-w-sm p-6 bg-white border border-white-200 rounded-lg shadow transition-all duration-700 hover:scale-110">
                 <div>
                   <div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-gray-100"><svg
                       xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -102,7 +99,7 @@
                     down on complexity and development time..</p>
                 </div>
               </div>
-              <div class="block max-w-sm p-6 bg-white border border-white-200 rounded-lg shadow ">
+              <div class="block max-w-sm p-6 bg-white border border-white-200 rounded-lg shadow transition-all duration-700 hover:scale-110">
                 <div>
                   <div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-gray-100"><svg
                       xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -116,7 +113,7 @@
                     your clipboard, which expedites the implementation process..</p>
                 </div>
               </div>
-              <div class="block max-w-sm p-6 bg-white border border-white-200 rounded-lg shadow ">
+              <div class="block max-w-sm p-6 bg-white border border-white-200 rounded-lg shadow transition-all duration-700 hover:scale-110">
                 <div>
                   <div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-gray-100"><svg
                       xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -133,7 +130,7 @@
                     practises and trends..</p>
                 </div>
               </div>
-              <div class="block max-w-sm p-6 bg-white border border-white-200 rounded-lg shadow ">
+              <div class="block max-w-sm p-6 bg-white border border-white-200 rounded-lg shadow transition-all duration-700 hover:scale-110">
                 <div>
                   <div class="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-gray-100"><svg
                       xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"

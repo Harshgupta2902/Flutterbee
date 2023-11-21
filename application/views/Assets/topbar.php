@@ -4,15 +4,16 @@
           <a class="hidden items-center space-x-2 md:flex" href="/">
             <div class="inline-flex items-center space-x-2" style="cursor: pointer;"><img src="<?php echo base_url('Assets/assets/logo.jpg  ')?>"
                 alt="logo" class="h-auto w-20">
-              <span class="font-bold">FlutterBee</span>
+              <span class="font-bold transition-all duration-700 hover:scale-110  ">FlutterBee</span>
             </div>
           </a>
           <nav class="hidden gap-6 md:flex">
-            <a class="flex items-center text-lg font-semibold transition-colors sm:text-sm"
+            <a class="flex items-center font-bold transition-all duration-700 hover:scale-125  hover:text-slate-700"
               href="<?php echo base_url('getStarted') ?>">Getting Started</a>
-            <a class="flex items-center text-lg font-semibold transition-colors sm:text-sm"
+
+            <a class="flex items-center font-bold transition-all duration-700 hover:scale-125  hover:text-slate-700"
               href="<?php echo base_url('utility') ?>">Components</a>
-            <a class="flex items-center text-lg font-semibold transition-colors sm:text-sm" href="<?php echo base_url('join') ?>">Join
+            <a class="flex items-center font-bold transition-all duration-700 hover:scale-125  hover:text-slate-700" href="<?php echo base_url('join') ?>">Join
               Us</a>
           </nav>
           <button class="flex items-center space-x-2 md:hidden">

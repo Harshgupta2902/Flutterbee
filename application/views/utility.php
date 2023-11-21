@@ -43,10 +43,10 @@
                         <p class="mt-4 font-sans text-sm font-semibold text-gray-600">Explore our Flutter Based App-Bar
                             components, designed for ready-to-use in your developement.</p>
                     </div>
-                    <div class="mt-10 w-full lg:mt-0 lg:w-[70%]">
+                    <div class="mt-10 w-full lg:mt-0 lg:w-[70%] ">
                         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-x-4 lg:gap-y-4">
                             <?php foreach ($appBar as $appBarItem): ?>
-                                <div class="rounded-md p-2 hover:bg-gray-100/50">
+                                <div class="rounded-md p-2 hover:bg-gray-100/50 transition-all duration-700 hover:scale-110">
                                     <?php $dataToSend = array('title' => $appBarItem['title'], 'gif' => $appBarItem['gif'], 'chunk' => $appBarItem['chunk']); ?>
                                     <a href="<?php echo base_url('components?data='. urlencode(json_encode($dataToSend)))?>">
                                         <div class="rounded-t-md border border-gray-200 bg-white flex flex-col" style="height: 300px;">
@@ -81,7 +81,7 @@
                     <div class="mt-10 w-full lg:mt-0 lg:w-[70%]">
                         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-x-4 lg:gap-y-4">
                             <?php foreach ($uiComponents as $uiComponent): ?>
-                                <div class="rounded-md p-2 hover:bg-gray-100/50">
+                                <div class="rounded-md p-2 hover:bg-gray-100/50 transition-all duration-700 hover:scale-110">
                                     <?php $dataToSend = array('title' => $uiComponent['title'], 'gif' => $uiComponent['gif'], 'chunk' => $uiComponent['chunk']); ?>
                                     <a href="<?php echo base_url('components?data='. urlencode(json_encode($dataToSend)))?>">
                                         <div class="rounded-t-md border border-gray-200 bg-white flex flex-col" style="height: 300px;">
@@ -115,7 +115,7 @@
                     <div class="mt-10 w-full lg:mt-0 lg:w-[70%]">
                         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-x-4 lg:gap-y-4">
                             <?php foreach ($cards as $card): ?>
-                                <div class="rounded-md p-2 hover:bg-gray-100/50">
+                                <div class="rounded-md p-2 hover:bg-gray-100/50 transition-all duration-700 hover:scale-110">
                                     <?php $dataToSend = array('title' => $card['title'], 'gif' => $card['gif'], 'chunk' => $card['chunk']); ?>
                                     <a href="<?php echo base_url('components?data='. urlencode(json_encode($dataToSend)))?>">
                                         <div class="rounded-t-md border border-gray-200 bg-white flex flex-col" style="height: 300px;">
